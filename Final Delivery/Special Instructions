@@ -1,0 +1,5 @@
+1. Copy and Paste the datasets everytime when you start a new Google Colab session. 
+This is because Google Colab only caches files for each session but not permanently stores them on the cloud.
+2. There are 4 variables to change: cases_death, vac, mode and prediction(). For the first two you need to change the file paths,
+and for mode you need to specify either "visualization" or "prediction", and for prediction parameters DO NOT CHANGE the first 
+parameter and change the second one to any number you wish to predict and the third to either "cases" or "deaths".
